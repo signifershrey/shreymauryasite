@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+:root{
+    --primary-color :#34D399;
+    --offwhite :#F3F4F6;
+    --dark-gray: #687280  ;
+
+}
+
+
+body{
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.margin-md{
+    margin: 2rem;
+}
+h2{
+    color:#0b7c53;
+    font-size: medium;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+h3{
+    color: #0b7c53;
+    font-size: 30px;
+}
+p{
+   /* font-family:'Nerko One', cursive; */
+   font-family: 'Sansita Swashed', cursive;
+}
+
+/* #Lib{
+    color:#34D399;
+} */
+.heading-inverted{
+    color:#15d38d;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+/*Container*/
+
+.container {
+    
+    padding:0rem ,1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/*LINKSS*/
+
+.link{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+ 
+
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.secondary-link {
+    color :var(--primary-color);
+    border-radius: 0.5rem;
+    border:1px solid var(--primary-color) ;
+}
+
+
+/*Spaces*/
+hr{
+    margin: 2rem 0rem;
+}
+
+
+/*LISTS*/
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+
+/*NAVSS*/
+
+
+.navigation {
+    background-color:var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+  
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+
+/*Headerrr*/
+
+.hero{
+    padding: 2rem;
+    padding-top: 5em;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+  text-align: center;
+  padding-top: 1rem;
+  color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+}
+
+
+/* Section */
+
+.section{
+    padding: 2rem;
+}
+
+/* .section h3{
+    text-align: center;
+
+} */
+
+.ow {
+    background-color:var(--offwhite) ;
+}
+
+/*Footerr  */
+
+footer{
+    background-color: #6EE7B7;
+    padding: 2rem ;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer.footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
